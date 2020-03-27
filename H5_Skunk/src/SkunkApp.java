@@ -1,4 +1,3 @@
-
 public class SkunkApp
 {
 	public SkunkUI skunkUI;
