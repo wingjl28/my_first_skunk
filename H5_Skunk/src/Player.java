@@ -6,6 +6,8 @@ public class Player
 	public int roundScore;
 	public int gameScore; // for now, same as roundScore
 	public int numberChips;
+	public String playerName;
+	
 
 	public Player()
 	{
@@ -20,6 +22,10 @@ public class Player
 	{
 		this();
 		this.numberChips = startingChipsPerPlayer;
+	}
+	
+	public void setPlayerName(String playerName) {
+		this.playerName = playerName;
 	}
 
 	public static void main(String[] args)
@@ -64,8 +70,7 @@ public class Player
 
 	public String getName()
 	{
-		// TODO Auto-generated method stub
-		return null;
+		return this.playerName;
 	}
 
 	public void setRoundScore(int i)
