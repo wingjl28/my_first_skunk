@@ -46,7 +46,15 @@ public class Dice
 	{
 		return this.lastRoll;
 	}
+	
+	public int getDie1Roll() {
+		return this.die1.getLastRoll();
+	}
 
+	public int getDie2Roll() {
+		return this.die2.getLastRoll();
+	}
+	
 	public void roll()
 	{
 		// roll each of die1, die2, sum their last rolls,
